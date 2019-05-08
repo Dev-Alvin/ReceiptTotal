@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900|Open+Sans:400,600,700|Roboto:400,500,700,900" rel="stylesheet">
+	<title>Receipt Total</title>
+	<style>
+		/* desktop */
+		@media only screen and (min-width: 960px) {
+			.container {
+				width: 960px;
+			}
+		}
+
+		/* tablets */
+		@media only screen and (max-width: 960px) {
+			.container {
+				width: 600px;
+			}
+		}
+		/* mobile */
+		@media only screen and (max-width: 600px) {
+			.container {
+				width: 100%;
+			}
+			.row-mid-top-left{
+				padding-left: 40px !important;
+			}
+			.row-mid-top-right{
+				padding-right: 40px !important;
+			}
+			.row-mid-top-right > tbody > tr > td > p{
+				padding-top: 27px;
+			}
+			.row-mid-left{
+				padding-left: 40px !important;
+			}
+			.row-mid-right{
+				padding-right: 40px !important;
+			}
+			.row-mid-bot-left{
+				padding-left: 40px !important;
+			}
+			.row-mid-bot-right{
+				padding-right: 40px !important;
+				padding-bottom: 20px !important;
+			}
+			.sub-footer > tbody > tr > td > a > img{
+				width: 125px !important;
+			}
+			.row-mid-footer > tbody > tr > td > span{
+				font-size: 14px;
+			}
+			
+		}
+	</style>
+</head>
+<body style="background: #F2F5F5; background-color: #F2F5F5; padding-top: 16px;">
+	<!-- Start HTML email -->
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td>
+				<!-- Start of container -->
+					<table class="container" width="600" align="center" cellspacing="0" cellpadding="0" border="0" style="background: #FFF; background-color: #FFF;">
+						<tr>
+							<td>
+								<!-- Start of top columns -->
+								<tr>
+									<td>
+										<table class="row-top" width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="font-family: 'Roboto', 'Lato', sans-serif; padding-bottom: 20px; border-bottom: 2px solid #EFF5F5;">
+											<tr>
+												<td align="center" style="padding-top: 50px; padding-bottom: 10px;">
+													<img src="https://i.imgur.com/lLO31cq.jpg" alt="user face" style="border-radius: 50%; width: 130px;">
+												</td>
+											</tr>
+											<tr>
+												<td align="center">
+													<h1 style="font-size: 19px; font-weight: 300; margin-top: 0; margin-bottom: 0; padding-bottom: 5px;">Hanna Smith</h1>
+													<h3 style="font-size: 15px; font-weight: 300; margin-top: 0; margin-bottom: 0; padding-bottom: 10px;">StyleLands</h3>
+												</td>
+											</tr>
+											<tr>
+												<td align="center">
+													<img src="https://i.imgur.com/oUodFeZ.png" alt="globe" style="width: 20px; height: 20px; background: #B6E2E4; padding: 4px; border-radius: 50%;">
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<!-- End of top top columns -->
+								<!-- Start of Middle-Top Content -->
+								<tr>
+									<td>
+										<!-- Start of middle-top-left content -->
+										<table class="row-mid-top-left" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="font-family: 'Roboto', 'Lato', sans-serif; padding-top: 20px; padding-bottom: 20px; padding-left: 65px;">
+											<tr>
+												<td>
+													<p class="date" style="margin: 0; color: #ced2d2; font-size: 12px; font-weight: 300; padding-bottom: 13px;">Jan 6, 3030 at 7:36pm</p>
+													<p style="margin: 0; font-size: 14px; font-weight: 300;">Ticket Service</p>
+												</td>
+											</tr>
+										</table>
+										<!-- End of middle-top-left content -->
+										<!-- Start of middle-top-right content -->
+										<table class="row-mid-top-right" width="50%" align="right" cellspacing="0" cellpadding="0" border="0" style="font-family: 'Roboto', 'Lato', sans-serif; padding-top: 20px; padding-bottom: 20px; padding-right: 65px;">
+											<tr>
+												<td>
+													<p style="margin: 0; font-size: 14px; font-weight: 300; padding-top: 24px; float: right;">$30</p>
+												</td>
+											</tr>
+										</table>
+										<!-- End of middle-top-right content -->
+									</td>
+								</tr>
+								<!-- End of Middle-Top Content -->
+								<!-- Start of hr-line -->
+								<tr>
+									<td>
+										<table class="row-hr-line" width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
+											<tr>
+												<td>
+													<hr style="width: 87%; border: none; border-top: 2px solid #EFF5F5;">
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<!-- End of hr-line -->
+								<!-- Start of Middle-Center content -->
+								<tr>
+									<td>
+										<!-- Start of middle-center-left content -->
+										<table class="row-mid-left" width="50%" align="left" cellspacing="0" cellpadding="0" border="0" style="font-family: 'Roboto', 'Lato', sans-serif; padding-top: 20px; padding-bottom: 20px; padding-left: 65px;">
+											<tr>
+												<td>
+													<p style="margin: 0; font-size: 14px; font-weight: 300; padding-bottom: 10px;">Subtotal</p>
+													<p style="margin: 0; font-size: 14px; font-weight: 300;">Fee</p>
+												</td>
+											</tr>
+										</table>
+										<!-- End of Middle-Center content -->
+										<!-- Start of middle-center-right content -->
+										<table class="row-mid-right" width="50%" align="right" cellspacing="0" cellpadding="0" border="0" style="font-family: 'Roboto', 'Lato', sans-serif; padding-top: 20px; padding-bottom: 20px; padding-right: 65px;">
+											<tr>
+												<td align="right">
+													<p style="margin: 0; font-size: 14px; font-weight: 300; padding-bottom: 10px;">$30</p>
+													<p style="margin: 0; font-size: 14px; font-weight: 300;">$3.50</p>
+												</td>
+											</tr>
+										</table>
+										<!-- End of Middle-Center-right content -->
+									</td>
+								</tr>
+								<!-- End of Middle-Center content -->
+								<!-- Start of hr-line -->
+								<tr>
+									<td>
+										<table class="row-hr-line" width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
+											<tr>
+												<td>
+													<hr style="width: 87%; border: none; border-top: 2px solid #EFF5F5;">
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<!-- End of hr-line -->
+								<!-- start of middle-bot content -->
+								<tr>
+									<td>
+										<!-- Start of middle-bot-left  -->
+										<table class="row-mid-bot-left" width="50%" align="left" cellspacing="0" cellpadding="0" style="font-family: 'Roboto', 'Lato', sans-serif; padding-top: 20px; padding-bottom: 20px; padding-left: 65px; border-bottom: 2px solid #EFF5F5;">
+											<tr>
+												<td>
+													<p style="margin: 0; font-size: 14px; font-weight: 900; padding-bottom: 10px;">Total</p>
+													<img src="https://i.imgur.com/1UdWPxz.png" alt="visa logo" style="width: 40px; height: 40px; float: left;">
+													<p style="display: inline-block; margin: 0; font-size: 14px; font-weight: 400; color: #ced2d2; padding-left: 10px; padding-top: 13px;">•••• xxxx</p>
+												</td>
+											</tr>
+										</table>
+										<!-- End of middle-bot-right  -->
+										<!-- Start of middle-bot-right  -->		
+										<table class="row-mid-bot-right" width="50%" align="right" cellspacing="0" cellpadding="0" border="0" style="font-family: 'Roboto', 'Lato', sans-serif; padding-top: 20px; padding-bottom: 20px; padding-right: 65px; border-bottom: 2px solid #EFF5F5;">
+											<tr>
+												<td align="right">
+													<p style="margin: 0; font-size: 14px; font-weight: 900; padding-top: 37px; padding-bottom: 13px;">$33.50</p>
+												</td>
+											</tr>
+										</table>
+										<!-- End of middle-bot-right  -->
+									</td>
+								</tr>
+								<!-- start of middle-bot content -->
+								<!-- start of middle-footer content -->
+								<tr>
+									<td>
+										<table class="row-mid-footer" width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="font-family: 'Roboto', 'Lato', sans-serif; padding-top: 20px; padding-top:40px; padding-bottom: 57px; border-bottom: 2px solid #EFF5F5;">
+											<tr>
+												<td align="center" style="padding-bottom: 45px">
+													<span style="font-weight: 100;">Rebook now to secure your next event!</span>
+												</td>
+											</tr>
+											<tr>
+												<td align="center">
+													<a href="#" style="text-transform: uppercase; text-decoration: none; font-size: 15px; background: #3EC9C1; background-color: #3EC9C1; color: #fff; padding: 15px 30px;">View Available Seats</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+								<!-- End of middle-footer content -->
+								<!-- Start of footer area -->
+								<tr>
+									<td>
+										<!-- Start of sub-footer -->
+										<table class="sub-footer" width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="font-family: 'Roboto', 'Lato', sans-serif; padding-top: 20px; padding-top:40px; padding-bottom: 30px; background: #F2F5F5; background-color: #F2F5F5;">
+											<tr>
+												<td align="center">
+													<h1 style="font-size: 26px; font-weight: 300; margin: 0; padding-bottom: 40px;">StyleLands</h1>
+												</td>
+											</tr>
+											<tr>
+												<td align="center">
+													<a href="#" style="text-decoration: none;">
+														<img src="https://i.imgur.com/poAR50m.png" alt="apple logo" style="width: 130px; padding-right: 3px;">
+													</a>
+													<a href="#" style="text-decoration: none;">
+														<img src="https://i.imgur.com/7JwKuDo.png" alt="apple logo" style="width: 129px; padding-left: 3px;">
+													</a>
+												</td>
+											</tr>
+										</table>
+										<!-- End of sub-footer -->
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<!-- start of bot-footer -->
+										<table class="footer-container" width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="font-family: 'Roboto', 'Lato', sans-serif; padding-bottom: 40px; background: #F2F5F5; background-color: #F2F5F5;">
+											<tr>
+												<td align="center">
+													<p style="font-size: 10px; font-weight: 300; color: #babdbd; margin: 0; line-height: 19px; padding-bottom: 15px;">
+														@2019 Alvin Narazet Cristales, Inc. All rights reserved. <br>
+																	600 6th St. #666, Los Angeles, CA 90019
+													</p>
+												</td>
+											</tr>
+											<tr>
+												<td align="center" style="padding-bottom: 15px;">
+													<p style="font-size: 11px; font-weight: 300; color: #babdbd; margin: 0; line-height: 19px; display: inline-block;">Follow us:</p>
+													<a href="https://facebook.com" style="color: #76A6B7; font-size: 10px; display: inline-block; padding-right: 5px;">Facebook</a>
+													<span align="center" style="display: inline-block; width: 1px; height: 10px; background: #76A6B7; background-color: #76A6B7; margin-right: 7px; margin-bottom: -2px;"></span>
+													<a href="https://twitter.com" style="color: #76A6B7; font-size: 10px; display: inline-block; padding-right: 5px;">Twitter</a>
+													<span align="center" style="display: inline-block; width: 1px; height: 10px; background: #76A6B7; background-color: #76A6B7; margin-right: 7px; margin-bottom: -2px;"></span>
+													<a href="https://instagram.com" style="color: #76A6B7; font-size: 10px; display: inline-block; padding-right: 5px;">Instagram</a>
+												</td>
+											</tr>
+											<tr>
+												<td align="center">
+													<a href="#" style="color: #76A6B7; font-size: 10px; display: inline-block; padding-right: 5px;">Unsubscribe</a>
+													<p style="font-size: 10px; font-weight: 300; color: #babdbd; margin: 0; line-height: 19px; padding-bottom: 15px; display: inline-block;">
+														from our emails
+													</p>
+												</td>
+											</tr>
+										</table>
+										<!-- End of bot-footer -->
+									</td>
+								</tr>
+								<!-- End of footer area -->
+							</td>
+						</tr>
+					</table>
+				<!-- End of container -->
+			</td>
+		</tr>
+	</table>
+	<!-- End HTML Email -->
+</body>
+</html>
